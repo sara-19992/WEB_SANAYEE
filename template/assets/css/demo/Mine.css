@@ -1,0 +1,14 @@
+.Accept_Not {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Accept_Not:hover {
+    background-color: RoyalBlue;
+}
+.Request{
+    margin-top: -50px;
+    width: 50px;
+}

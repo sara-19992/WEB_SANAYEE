@@ -1,4 +1,8 @@
 /* === Import template variables === */
+.font_bold{
+  font-family: Changa;
+  font-size: 0.875rem;
+}
 .mdc-button {
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -152,7 +156,7 @@ svg.mdc-button__icon {
 
 .mdc-button--raised:not(:disabled),
 .mdc-button--unelevated:not(:disabled) {
-  background-color: #7a00ff;
+  background-color: #252526;
 }
 
 @supports not (-ms-ime-align: auto) {
@@ -1259,7 +1263,7 @@ svg.mdc-button__icon {
 
 .mdc-chip {
   border-radius: 16px;
-  background-color: #e0e0e0;
+  background-color: #ea0808;
   color: rgba(0, 0, 0, 0.87);
   font-family: Roboto, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -2139,7 +2143,7 @@ svg.mdc-button__icon {
 
 .mdc-drawer {
   border-color: rgba(0, 0, 0, 0.12);
-  background-color: #fff;
+  background-color: #ffffff;
   /* @noflip */
   border-radius: 0 0 0 0;
   z-index: 6;
@@ -2365,7 +2369,7 @@ svg.mdc-button__icon {
   display: inline-block;
   width: 0;
   height: 20px;
-  content: "";
+  content: "dsddds";
   vertical-align: 0;
 }
 
@@ -20536,7 +20540,7 @@ address p {
 }
 
 .mdc-button.filled-button--secondary:not(:disabled) {
-  background-color: #ff420f;
+  background-color: #e7ff0f;
 }
 
 .mdc-button.filled-button--secondary:not(:disabled) {
@@ -20587,7 +20591,7 @@ address p {
 }
 
 .mdc-button.outlined-button--secondary::before, .mdc-button.outlined-button--secondary::after {
-  background-color: #ff420f;
+  background-color: #9bff0f;
 }
 
 .mdc-button.outlined-button--secondary:hover::before {
@@ -21031,7 +21035,7 @@ address p {
 }
 
 .mdc-button.outlined-button--danger::before, .mdc-button.outlined-button--danger::after {
-  background-color: #ff420f;
+  background-color: #0f53ff;
 }
 
 .mdc-button.outlined-button--danger:hover::before {
@@ -21057,7 +21061,7 @@ address p {
 }
 
 .mdc-button.outlined-button--danger:not(:disabled) {
-  border-color: #ff420f;
+  border-color: #ab0fff;
 }
 
 .mdc-button.text-button--light:not(:disabled) {
@@ -21448,16 +21452,16 @@ address p {
 }
 
 .mdc-checkbox.mdc-checkbox--secondary::before, .mdc-checkbox.mdc-checkbox--secondary::after {
-  background-color: #ff420f;
+  background-color: #f7ff0f;
 }
 
 .mdc-checkbox.mdc-checkbox--secondary .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
   border-color: #ff420f;
-  background-color: #ff420f;
+  background-color: #57ff0f;
 }
 
 .mdc-checkbox.mdc-checkbox--secondary .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background::before {
-  background-color: #ff420f;
+  background-color: #0f4bff;
 }
 
 .mdc-checkbox.mdc-checkbox--info::before, .mdc-checkbox.mdc-checkbox--info::after {
@@ -21500,16 +21504,16 @@ address p {
 }
 
 .mdc-checkbox.mdc-checkbox--danger::before, .mdc-checkbox.mdc-checkbox--danger::after {
-  background-color: #ff420f;
+  background-color: #605350;
 }
 
 .mdc-checkbox.mdc-checkbox--danger .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background {
   border-color: #ff420f;
-  background-color: #ff420f;
+  background-color: #b7ff0f;
 }
 
 .mdc-checkbox.mdc-checkbox--danger .mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background::before {
-  background-color: #ff420f;
+  background-color: #0fffc7;
 }
 
 .mdc-checkbox.mdc-checkbox--light::before, .mdc-checkbox.mdc-checkbox--light::after {
@@ -21647,17 +21651,17 @@ address p {
 }
 
 .mdc-switch.mdc-switch--secondary.mdc-switch--checked .mdc-switch__track {
-  background-color: #ff420f;
+  background-color: #aea3a0;
   border-color: #ff420f;
 }
 
 .mdc-switch.mdc-switch--secondary.mdc-switch--checked .mdc-switch__thumb {
-  background-color: #ff420f;
+  background-color: #644545;
   border-color: #ff420f;
 }
 
 .mdc-switch.mdc-switch--secondary .mdc-switch__thumb-underlay::before {
-  background-color: #ff420f;
+  background-color: #cbff0f;
 }
 
 .mdc-switch.mdc-switch--secondary:not(.mdc-switch--checked) .mdc-switch__thumb-underlay::before {
@@ -21719,17 +21723,17 @@ address p {
 }
 
 .mdc-switch.mdc-switch--danger.mdc-switch--checked .mdc-switch__track {
-  background-color: #ff420f;
+  background-color: #e5c4bb;
   border-color: #ff420f;
 }
 
 .mdc-switch.mdc-switch--danger.mdc-switch--checked .mdc-switch__thumb {
-  background-color: #ff420f;
+  background-color: #474443;
   border-color: #ff420f;
 }
 
 .mdc-switch.mdc-switch--danger .mdc-switch__thumb-underlay::before {
-  background-color: #ff420f;
+  background-color: #7d807c;
 }
 
 .mdc-switch.mdc-switch--danger:not(.mdc-switch--checked) .mdc-switch__thumb-underlay::before {
@@ -21903,7 +21907,7 @@ address p {
 }
 
 .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__content .mdc-tab__text-label {
-  color: #ff420f;
+  color: #b8b5b4;
 }
 
 .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab-indicator .mdc-tab-indicator__content--underline {
@@ -21911,11 +21915,11 @@ address p {
 }
 
 .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__ripple::before, .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__ripple::after {
-  background: #ff420f;
+  background: #0fff1b;
 }
 
 .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab .mdc-tab__ripple:hover::before, .mdc-tab-wrapper.mdc-tab--secondary .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab .mdc-tab__ripple:hover::after {
-  background: #ff420f;
+  background: #a59c99;
 }
 
 .mdc-tab-wrapper.mdc-tab--info .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__content .mdc-tab__text-label {
@@ -21967,7 +21971,7 @@ address p {
 }
 
 .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__content .mdc-tab__text-label {
-  color: #ff420f;
+  color: #bcaaa5;
 }
 
 .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab-indicator .mdc-tab-indicator__content--underline {
@@ -21975,11 +21979,11 @@ address p {
 }
 
 .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__ripple::before, .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__ripple::after {
-  background: #ff420f;
+  background: #927e79;
 }
 
 .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab .mdc-tab__ripple:hover::before, .mdc-tab-wrapper.mdc-tab--danger .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab .mdc-tab__ripple:hover::after {
-  background: #ff420f;
+  background: #6b6462;
 }
 
 .mdc-tab-wrapper.mdc-tab--light .mdc-tab-bar .mdc-tab-scroller .mdc-tab-scroller__scroll-content .mdc-tab.mdc-tab--active .mdc-tab__content .mdc-tab__text-label {
@@ -22158,7 +22162,7 @@ address p {
 }
 
 .mdc-card.info-card.info-card--secondary .card-inner .card-icon-wrapper {
-  background-color: #ff420f;
+  background-color: #928886;
   box-shadow: 0 0 10px 5px rgba(255, 66, 15, 0.35);
 }
 
@@ -22178,7 +22182,7 @@ address p {
 }
 
 .mdc-card.info-card.info-card--danger .card-inner .card-icon-wrapper {
-  background-color: #ff420f;
+  background-color: #85807e;
   box-shadow: 0 0 10px 5px rgba(255, 66, 15, 0.35);
 }
 
@@ -22275,7 +22279,7 @@ address p {
 .product-card .product-box .product-name-box .product-name-box-secondary {
   height: 75px;
   box-shadow: 0 0 10px 5px rgba(255, 66, 15, 0.35);
-  background: #ff420f;
+  background: #d2ccca;
   transition: all 0.25s ease-in-out;
 }
 
@@ -22323,7 +22327,7 @@ address p {
 .product-card .product-box .product-name-box .product-name-box-danger {
   height: 75px;
   box-shadow: 0 0 10px 5px rgba(255, 66, 15, 0.35);
-  background: #ff420f;
+  background: #cbc6c5;
   transition: all 0.25s ease-in-out;
 }
 
@@ -22726,7 +22730,7 @@ address p {
   position: absolute;
   top: 5px;
   left: 18px;
-  background: #ff420f;
+  background: #ddd9d8;
 }
 
 .mdc-top-app-bar .mdc-top-app-bar__section-right button button .count-indicator .count,
@@ -22774,7 +22778,7 @@ address p {
 }
 
 .mdc-top-app-bar .mdc-top-app-bar__section-right .menu-button-container .mdc-menu .mdc-list .mdc-list-item:nth-child(2n+0) .item-thumbnail-icon i {
-  color: #ff420f;
+  color: #706967;
 }
 
 .mdc-top-app-bar .mdc-top-app-bar__section-right .menu-button-container .mdc-menu .mdc-list .mdc-list-item:nth-child(3n+0) .item-thumbnail-icon {
@@ -22880,8 +22884,7 @@ address p {
 
 /* Sidebar */
 .mdc-drawer {
-  background: linear-gradient(#2a1c5a, #4b3a6e);
-  background: url(../../images/sidebar/sidebar-bg.jpg);
+  background: linear-gradient(#353535, #302e37);
   position: fixed;
 }
 
@@ -22960,7 +22963,8 @@ address p {
 .mdc-drawer .mdc-drawer__content .mdc-drawer-menu .mdc-drawer-item .mdc-expansion-panel-link i.mdc-drawer-item-icon,
 .mdc-drawer .mdc-drawer__content .mdc-drawer-menu .mdc-drawer-item .mdc-drawer-link i.mdc-drawer-item-icon {
   font-size: 1.25rem;
-  margin-right: 0.562rem;
+  margin-right: 0.162rem;
+  margin-left: 10px;
 }
 
 .mdc-drawer .mdc-drawer__content .mdc-drawer-menu .mdc-drawer-item .mdc-expansion-panel-link .mdc-drawer-arrow,
@@ -23019,7 +23023,7 @@ address p {
   width: 1px;
   height: 10px;
   margin-top: 1px;
-  background: #bababa;
+  background: #cfb9b9;
 }
 
 .mdc-drawer .mdc-drawer__content .premium-card {
@@ -23046,7 +23050,7 @@ address p {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.2);
+  background: #b7a3a3;
 }
 
 .mdc-drawer .mdc-drawer__content .premium-card .icon-card i {
@@ -23060,7 +23064,8 @@ address p {
 }
 
 .mdc-drawer .ps .ps__rail-y:hover {
-  background: transparent;
+  background-color: #605b5b;
+
 }
 
 .mdc-drawer .ps .ps__rail-y:hover .ps__thumb-y {
@@ -23068,7 +23073,7 @@ address p {
 }
 
 .mdc-drawer .ps .ps__rail-y .ps__thumb-y {
-  background-color: #6d6386;
+  background-color: #666262;
   width: 4px;
 }
 
@@ -23118,12 +23123,16 @@ footer .vertical-divider {
 }
 
 .body-wrapper .main-wrapper .page-wrapper {
-  background: #e9eaef;
+  background: #a99797;
+  margin-top: -120px;
 }
 
 .body-wrapper .main-wrapper .page-wrapper .content-wrapper {
-  min-height: calc(100vh - 64px - 67px);
-  padding: 16px 30px;
+  min-height: calc(100vh);
+  padding: 150px 30px;
+  background: url(../../images/sidebar/back_image.jpg);
+  background-size: 1550px 900px;
+
 }
 
 @media (max-width: 767px) {
