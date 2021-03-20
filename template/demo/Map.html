@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- code by webdevtrick ( https://webdevtrick.com )-->
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Custom Marker On Map | Webdevtrick.com</title>
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="full-screen">
+    <div id="map" class="map"></div>
+
+    <!--controls-->
+    <span id="zoomIn" class="btn zoom in">
+        <i class="fa fa-plus"></i>
+    </span>
+    <span id="zoomOut" class="btn zoom out">
+        <i class="fa fa-minus"></i>
+    </span>
+
+    <span id="center" class="btn zoom center">
+        <i class="fa fa-crosshairs"></i>
+    </span>
+
+    <div class="mapTypeId">
+        <select id="mapTypeId">
+            <option value="1">Roadmap</option>
+            <option value="2">Satellite</option>
+        </select>
+    </div>
+
+</div>
+<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCLFomDOPKqvvITt7tv_hZG0PDlWB2-q0g'></script>
+<script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+<script src='https://code.jquery.com/jquery-migrate-1.2.1.min.js'></script>
+
+<script  src="function.js"></script>
+
+</body>
+</html>
